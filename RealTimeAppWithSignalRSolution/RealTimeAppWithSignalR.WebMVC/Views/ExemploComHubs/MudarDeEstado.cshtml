@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Mudar De Estado";
+}
+
+<h2>Mudar De Estado</h2>
+
+<div class="row">
+    Exemplo de mudança de estado de variáveis do lado cliente no servidor através do Signal R.
+</div>
+<div class="row">
+    <input id="btnMudarVariavelDeEstado" type="button" value="Mudar variável de estado" class="btn-default" />
+</div>
+<script src="/signalr/js"></script>
+<script>
+
+    $(document).ready(function () {
+        $.connection.hub.logging = true;
+
+        var proxy = $.connection.Teste;
+
+        proxy.client.showAlert = function (msg) {
+            alert(msg);
+        }
+
+        $.connection.hub.start().done(function () {
+            $("#btnMudarVariavelDeEstado").on("click", function () {
+                proxy.server.alert("Mr. Kenobi", "I felt a great disturbance in the force.");
+            });
+        });
+
+        proxy.state.UserName = "Obi Wan";
+        proxy.state.MsgId = 1;
+
+    });
+
+</script>

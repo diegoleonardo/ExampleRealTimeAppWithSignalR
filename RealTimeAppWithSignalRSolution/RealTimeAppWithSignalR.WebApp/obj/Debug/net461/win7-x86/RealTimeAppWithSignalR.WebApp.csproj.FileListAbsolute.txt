@@ -1,0 +1,5 @@
+C:\Users\dsantos\documents\visual studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeAppWithSignalR.WebApp\bin\Debug\net461\win7-x86\RealTimeAppWithSignalR.WebApp.deps.json
+C:\Users\dsantos\documents\visual studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeAppWithSignalR.WebApp\bin\Debug\net461\win7-x86\RealTimeAppWithSignalR.WebApp.runtimeconfig.json
+C:\Users\dsantos\documents\visual studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeAppWithSignalR.WebApp\bin\Debug\net461\win7-x86\RealTimeAppWithSignalR.WebApp.runtimeconfig.dev.json
+C:\Users\dsantos\documents\visual studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeAppWithSignalR.WebApp\obj\Debug\net461\win7-x86\RealTimeAppWithSignalR.WebApp.csproj.RealTimeAppWithSignalR.WebApp.exe.config
+C:\Users\dsantos\documents\visual studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeAppWithSignalR.WebApp\obj\Debug\net461\win7-x86\RealTimeAppWithSignalR.WebApp.AssemblyInfo.cs

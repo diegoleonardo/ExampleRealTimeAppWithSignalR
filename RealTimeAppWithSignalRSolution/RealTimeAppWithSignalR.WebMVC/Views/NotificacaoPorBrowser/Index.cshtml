@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<br />
+<div class="row">
+    <div>
+        Testando a notificação por tipo de browser.
+    </div>
+</div>
+<br />
+<script>
+    $(function () {
+        var conn = $.connection("/PersistentConnections/WebBrowserGroups");
+        conn.start();
+        conn.received(function (msg) { alert(msg); });
+    })
+</script>

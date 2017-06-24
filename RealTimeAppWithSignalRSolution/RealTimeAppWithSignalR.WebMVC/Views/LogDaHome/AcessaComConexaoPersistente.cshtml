@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Acessa Com Conexao Persistente";
+}
+
+<h1>Requests log usando Conexão Persistente</h1>
+<br />
+<div class="row">
+    <ul id="requests"></ul>
+</div>
+<br />
+<script>
+    $(function () {
+        var connection = $.connection("/spy");
+        connection.received(function (data) {
+            $("#requests").append("<li>" + data + "</li>");
+        });
+        connection.start();
+    });
+</script>
+

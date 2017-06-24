@@ -1,0 +1,10 @@
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\bin\Debug\RealTimeApp.DrawingConsoleApp.exe.config
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\bin\Debug\RealTimeApp.DrawingConsoleApp.exe
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\bin\Debug\RealTimeApp.DrawingConsoleApp.pdb
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\obj\Debug\RealTimeApp.DrawingConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\obj\Debug\RealTimeApp.DrawingConsoleApp.exe
+C:\Users\dsantos\Documents\Visual Studio 2017\Projects\RealTimeAppWithSignalRSolution\RealTimeApp.DrawingConsoleApp\obj\Debug\RealTimeApp.DrawingConsoleApp.pdb

@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="row">
+    Página dedicada a exemplos usando Hubs do Signal-R.
+</div>
+<div class="row">
+    @Html.ActionLink("Exemplo de acesso à variáveis do cliente no lado do servidor.", "MudarDeEstado", "ExemploComHubs");
+</div>
+<br />
+<div class="row">
+    <label id="lblNovaConnectionId"></label>
+</div>
+<script src="/signalr/js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        var proxy = $.connection.Teste;
+
+        $.connection.hub.logging = true;
+
+        $.connection.hub.start();
+
+        proxy.client.showAlert = function (msg) {
+            alert(msg);
+        }
+
+        proxy.client.newUser = function (userId) {
+            $("#lblNovaConnectionId").text("New user with id:" + userId);
+        }
+
+    });
+
+</script>

@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Requests log</h1>
+<br />
+<div class="row">
+    @Html.ActionLink("Acesso por conexão persistente", "AcessaComConexaoPersistente", "LogDaHome")
+</div>
+<div class="row">
+    @Html.ActionLink("Acesso por Hub", "AcessaComHubs", "LogDaHome")
+</div>
+<br />

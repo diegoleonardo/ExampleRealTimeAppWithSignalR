@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "AcessaComHubs";
+}
+
+<h1>Requests log usando Hub</h1>
+<br />
+<div class="row">
+    <ul id="requests"></ul>
+</div>
+<br />
+<script src="/signalr/js"></script>
+<script>
+    $(document).ready(function () {
+
+        var proxy = $.connection.logDeAcessoHome;
+
+        $.connection.hub.logging = true;
+
+        $.connection.hub.start();
+
+        proxy.client.showAlert = function (msg) {
+            alert(msg);
+        }
+
+        proxy.client.novoAcesso = function (data) {
+            $("#requests").append("<li>" + data + "</li>");
+        }
+
+    });
+</script>
+

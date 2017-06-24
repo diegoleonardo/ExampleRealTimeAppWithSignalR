@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FA5D9FCE-D81B-4D6F-AD76-586EE91B2BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAppWithSignalR.WebApp", "RealTimeAppWithSignalR.WebApp\RealTimeAppWithSignalR.WebApp.csproj", "{7EA90A7B-E7B2-4012-A5ED-2FC98AEA6D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeAppWithSignalR.WebMVC", "RealTimeAppWithSignalR.WebMVC\RealTimeAppWithSignalR.WebMVC.csproj", "{8EAB8B4F-A70F-4A09-82EF-22A7D8F16518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeApp.ConsoleApp", "RealTimeApp.Console\RealTimeApp.ConsoleApp.csproj", "{4FEDCE3F-6636-4C46-8109-0E25A33DA025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeApp.WindowsServiceApp", "RealTimeApp.WindowsServiceApp\RealTimeApp.WindowsServiceApp.csproj", "{F5CC141C-B5F4-4A4C-9703-2D4A51220EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrService", "SignalrService\SignalrService.csproj", "{78AE9553-158F-4470-8D04-B2AE451FD2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeApp.DrawingConsoleApp", "RealTimeApp.DrawingConsoleApp\RealTimeApp.DrawingConsoleApp.csproj", "{8B18DBB6-2EDD-4098-A13C-76D0266A6ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EA90A7B-E7B2-4012-A5ED-2FC98AEA6D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA90A7B-E7B2-4012-A5ED-2FC98AEA6D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA90A7B-E7B2-4012-A5ED-2FC98AEA6D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA90A7B-E7B2-4012-A5ED-2FC98AEA6D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAB8B4F-A70F-4A09-82EF-22A7D8F16518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAB8B4F-A70F-4A09-82EF-22A7D8F16518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAB8B4F-A70F-4A09-82EF-22A7D8F16518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAB8B4F-A70F-4A09-82EF-22A7D8F16518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEDCE3F-6636-4C46-8109-0E25A33DA025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEDCE3F-6636-4C46-8109-0E25A33DA025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEDCE3F-6636-4C46-8109-0E25A33DA025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEDCE3F-6636-4C46-8109-0E25A33DA025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CC141C-B5F4-4A4C-9703-2D4A51220EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CC141C-B5F4-4A4C-9703-2D4A51220EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CC141C-B5F4-4A4C-9703-2D4A51220EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CC141C-B5F4-4A4C-9703-2D4A51220EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AE9553-158F-4470-8D04-B2AE451FD2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AE9553-158F-4470-8D04-B2AE451FD2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AE9553-158F-4470-8D04-B2AE451FD2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AE9553-158F-4470-8D04-B2AE451FD2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B18DBB6-2EDD-4098-A13C-76D0266A6ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B18DBB6-2EDD-4098-A13C-76D0266A6ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B18DBB6-2EDD-4098-A13C-76D0266A6ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B18DBB6-2EDD-4098-A13C-76D0266A6ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EA90A7B-E7B2-4012-A5ED-2FC98AEA6D06} = {FA5D9FCE-D81B-4D6F-AD76-586EE91B2BEA}
+		{8EAB8B4F-A70F-4A09-82EF-22A7D8F16518} = {FA5D9FCE-D81B-4D6F-AD76-586EE91B2BEA}
+		{4FEDCE3F-6636-4C46-8109-0E25A33DA025} = {FA5D9FCE-D81B-4D6F-AD76-586EE91B2BEA}
+		{F5CC141C-B5F4-4A4C-9703-2D4A51220EC6} = {FA5D9FCE-D81B-4D6F-AD76-586EE91B2BEA}
+		{78AE9553-158F-4470-8D04-B2AE451FD2F3} = {FA5D9FCE-D81B-4D6F-AD76-586EE91B2BEA}
+		{8B18DBB6-2EDD-4098-A13C-76D0266A6ECD} = {FA5D9FCE-D81B-4D6F-AD76-586EE91B2BEA}
+	EndGlobalSection
+EndGlobal
